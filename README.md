@@ -13,4 +13,4 @@ gcc -o guess main.c
 add a text file in guesslang/ with a text in the language desired.
 edit guesslang.config adding a extra line with this format:
 
-# language : file_language
+<b>language : file_language</b>
