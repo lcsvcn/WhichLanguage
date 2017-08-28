@@ -126,7 +126,7 @@ int main(int argc, char *argv[]) {
 			for(k = 0; k < DIC[j].fim_das_palavras; k++) {
 				 if(strcasecmp(DIC[j].PAL[k].str, str) == 0) {
 				 	DIC[j].cont_ocorr++;
-				 	break;
+				 	j++;		// vai pro prox dicionario
 				 }
 			}
 		}
